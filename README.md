@@ -136,7 +136,7 @@ The sessionStorage object is equal to the localStorage object, except that it st
 
 Open `html/todo.html` and `js/todo.js` in your web browser and text editor, respectively.
 
-1. Following the first exercise, given an input text, count the occurrences of each vowel independently. So you show something like this: `Your input contains a:6, e:1, i:2, o:3, u:2`.
+1. Following the first exercise, given an input text, count the occurrences of each vowel independently. So you show something like this: `Your input contains a:6, e:1, i:2, o:3, u:2`. Make sure to apply the concept of [JS Objects](https://www.w3schools.com/js/js_objects.asp) to handle the counter per vowel and employ [JSON.stringify()](https://www.w3schools.com/js/js_json_stringify.asp) to print the counter easily.
 
    <img src="imgs/todo_1.gif" />
 
