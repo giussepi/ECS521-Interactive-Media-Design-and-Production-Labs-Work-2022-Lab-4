@@ -146,7 +146,7 @@ Open `html/todo.html` and `js/todo.js` in your web browser and text editor, resp
 
 3. Follow the instructions from Q2 but now with the following changes:
 * Employ `sessionStorage`.
-* Use the `Remove first name` button to remove your first name from the storage and from the from.
+* Use the `Remove first name` button to remove your first name from the storage and from the HTML form.
 
 
 ## Submission Instructions:
