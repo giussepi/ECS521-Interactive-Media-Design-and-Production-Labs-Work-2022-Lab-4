@@ -140,7 +140,7 @@ Open `html/todo.html` and `js/todo.js` in your web browser and text editor, resp
 
    <img src="imgs/todo_1.gif" />
 
-2. Type your first name, last name and age and save them in the localStorage by clicking the `Save & display` button. Subsequently, remove the last name from localStorage and display the change using the `Remove last name` button. Now, clear the localStorage and display the changes using the `Clear local storage` button. **Hints.** storage [removeitem](https://www.w3schools.com/jsref/met_storage_removeitem.asp), [clear](https://www.w3schools.com/JSREF/met_storage_clear.asp), [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace). __All the special details are shown in the animation below__:
+2. Type your first name, last name and age and save them in the localStorage by clicking the `Save & display` button. Subsequently, remove the last name from localStorage and display the change using the `Remove last name` button. Now, clear the localStorage and display the changes using the `Clear local storage` button. **Hints.** [removeitem](https://www.w3schools.com/jsref/met_storage_removeitem.asp), [clear](https://www.w3schools.com/JSREF/met_storage_clear.asp), and [replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace). __All the special details are shown in the animation below__:
 
    <img src="imgs/todo_2.gif" />
 
