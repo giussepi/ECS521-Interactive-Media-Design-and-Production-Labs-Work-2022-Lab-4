@@ -108,14 +108,14 @@ The sessionStorage object is equal to the localStorage object, except that it st
            } else {
                localStorage.clickcount = 1;
            }
-           document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+           document.getElementById("result").innerHTML = `You have clicked the button  ${localStorage.clickcount}  time(s).`;
        } else {
            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
        }
    }
    ```
 
-4. Comment function for localStorage and add following function for sessionStorage. Close and Open tab/window multiple times, while clicking the button, and notice counter value.
+4. Comment the code for localStorage and add following lines for sessionStorage. Close and Open tab/window multiple times, while clicking the button, and notice counter value.
    ```js
    function clickCounter() {
        if (typeof(Storage) !== "undefined") {
@@ -124,7 +124,7 @@ The sessionStorage object is equal to the localStorage object, except that it st
            } else {
                sessionStorage.clickcount = 1;
            }
-           document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+           document.getElementById("result").innerHTML = `You have clicked the button  ${sessionStorage.clickcount} time(s) in this session.`;
        } else {
            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
        }
