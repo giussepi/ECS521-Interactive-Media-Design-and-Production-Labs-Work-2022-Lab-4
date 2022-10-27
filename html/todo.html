@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Lab 4 - Data persistence</title>
+    <link rel='stylesheet' href='../css/styles.css'>
+    <style>
+    </style>
+  </head>
+  <body>
+    <div class="section">
+      <h3>TODO Question 1: Vowel counter</h3>
+      <form>
+        <textarea type="text" rows="10" cols="50" id="input_txt"></textarea>
+        <button type="button" id="count_btn">Count vowels</button>
+      </form>
+      <p id="display_result"></p>
+    </div>
+
+    <div class="section">
+      <h3>TODO Question 2: localStorage</h3>
+      <form>
+	<input type="text" id="todo2_fname" name="firstname" placeholder="First name" readonly>
+	<input type="text" id="todo2_lname" name="lastname" placeholder="Last name" readonly>
+	<input type="number" id="todo2_age" name="age" placeholder="Age" readonly>
+
+        <button type="button" id="todo2_display">Display content</button>
+	<button type="button" id="todo2_remove_lastname">Remove last name</button>
+	<button type="button" id="todo2_clear_local_storage">Clear local storage</button>
+      </form>
+      <p id="display_result"></p>
+    </div>
+
+    <div class="section">
+      <h3>TODO Question 3: sessionStorage</h3>
+      <form>
+	<input type="text" id="todo3_fname" name="firstname" placeholder="First name" readonly>
+	<input type="text" id="todo3_lname" name="lastname" placeholder="Last name" readonly>
+	<input type="number" id="todo3_age" name="age" placeholder="Age" readonly>
+
+        <button type="button" id="todo3_display">Display content</button>
+	<button type="button" id="todo3_remove_firstname">Remove first name</button>
+	<button type="button" id="todo3_clear_session_storage">Clear session storage</button>
+      </form>
+    </div>
+
+    <script type="text/javascript" src="../js/todo.js"></script>
+  </body>
+</html>
