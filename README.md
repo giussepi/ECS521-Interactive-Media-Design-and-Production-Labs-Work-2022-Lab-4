@@ -140,13 +140,14 @@ Open `html/todo.html` and `js/todo.js` in your web browser and text editor, resp
 
    <img src="imgs/todo_1.gif" />
 
-2. Create your first name, last name and age in localStorage, then display content using the `Display content` button. Subsequently, remove last name from localStorage (using the `Remove last name` button) and display content (using the `Display content` button). Now, clear localStorage (using the `Clear local storage` button) and display the content using the `Display content` button. **Hint.** storage [removeitem()](https://www.w3schools.com/jsref/met_storage_removeitem.asp) and [clear()](https://www.w3schools.com/JSREF/met_storage_clear.asp) methods.
+2. Type your first name, last name and age and save them in the localStorage by clicking the `Save & display` button. Subsequently, remove the last name from localStorage and display the change using the `Remove last name` button. Now, clear the localStorage and display the changes using the `Clear local storage` button. **Hints.** storage [removeitem](https://www.w3schools.com/jsref/met_storage_removeitem.asp), [clear](https://www.w3schools.com/JSREF/met_storage_clear.asp), (replace)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace]. __All the special details are shown in the animation below__:
 
    <img src="imgs/todo_2.gif" />
 
-3. Create your first name, last name and age in sessionStorage, then display content using the `Display content` button. Subsequently, remove first name from sessionStorage (using the `Remove first name` button) and display content (using the `Display content` button). Now, clear sessionStorage (using the `Clear session storage` button) and display the content using the `display content` button.
+3. Follow the instructions from Q2 but now with the following changes:
+* Employ `sessionStorage`.
+* Use the `Remove first name` button to remove your first name from the storage and from the from.
 
-   <img src="imgs/todo_3.gif" />
 
 ## Submission Instructions:
 ### Deadline: 28/10/22 17:00
