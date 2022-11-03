@@ -55,12 +55,13 @@ window.addEventListener('load', function() {
     };
 
     /**
-     * Updates the provided property from localStorage with the clean value of the provided input
+     * Updates the provided 'storage_property' from localStorage with the cleaned 'input' provided
      * @param {Element} input              Element object
      * @param {String}  storage_property   localStorage property
      */
     function update_local_storage(input, storage_property) {
-	// Write the correct logic below following the function description from the docstring
+	// Write the correct logic below to update the localStorage with the right value
+	// (it could be an empty string or a new value with the right prefix)
 
     }
 
@@ -68,16 +69,13 @@ window.addEventListener('load', function() {
     // appying destructuring assignment
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
     let [input_fname2, input_lname2, input_age2] = get_input_elements_q2();
-    let prefix = '[FROM STORAGE]: ';
+    let prefix = '[FROM STORAGE]:';
     let btn_save2 = document.getElementById('todo2_save');
     let btn_rm_lastname2 = document.getElementById('todo2_remove_lastname');
     let btn_clr_local_storage2 = document.getElementById('todo2_clear_local_storage');
 
     if (typeof(Storage) !== "undefined") {
 	btn_save2.onclick = function() {
-	    // write code get updated Element objects for all the inputs
-
-
 	    // Uncomment the following lines and provide the proper arguments to the
 	    // update_local_storage function to update the storage related to the three inputs
 	    // update_local_storage(<input>, <storage_propery>);
